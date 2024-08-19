@@ -1,0 +1,132 @@
+2024-07-29 11:11:53 [JobThread.run-130] <br>----------- datax-web job execute start -----------<br>----------- Param:
+2024-07-29 11:11:53 [BuildCommand.buildDataXParam-100] ------------------Command parameters:
+2024-07-29 11:11:53 [ExecutorJobHandler.execute-57] ------------------DataX process id: 12524
+2024-07-29 11:11:53 [ProcessCallbackThread.callbackLog-186] <br>----------- datax-web job callback finish.
+2024-07-29 11:11:53 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-07-29 11:11:53 [AnalysisStatistics.analysisStatisticsLog-53] DataX (DATAX-OPENSOURCE-3.0), From Alibaba !
+2024-07-29 11:11:53 [AnalysisStatistics.analysisStatisticsLog-53] Copyright (C) 2010-2017, Alibaba Group. All Rights Reserved.
+2024-07-29 11:11:53 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-07-29 11:11:53 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:11:54.275 [main] INFO  MessageSource - JVM TimeZone: GMT+08:00, Locale: zh_CN
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:11:54.277 [main] INFO  MessageSource - use Locale: zh_CN timeZone: sun.util.calendar.ZoneInfo[id="GMT+08:00",offset=28800000,dstSavings=0,useDaylight=false,transitions=0,lastRule=null]
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:11:54.286 [main] INFO  VMInfo - VMInfo# operatingSystem class => sun.management.OperatingSystemImpl
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:11:54.291 [main] INFO  Engine - the machine info  => 
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 	osInfo:	Windows 10 amd64 10.0
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 	jvmInfo:	Oracle Corporation 1.8 25.221-b11
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 	cpu num:	16
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 	totalPhysicalMemory:	-0.00G
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 	freePhysicalMemory:	-0.00G
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 	maxFileDescriptorCount:	-1
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 	currentOpenFileDescriptorCount:	-1
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 	GC Names	[PS MarkSweep, PS Scavenge]
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 	MEMORY_NAME                    | allocation_size                | init_size                      
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 	PS Eden Space                  | 256.00MB                       | 256.00MB                       
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 	Code Cache                     | 240.00MB                       | 2.44MB                         
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 	Compressed Class Space         | 1,024.00MB                     | 0.00MB                         
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 	PS Survivor Space              | 42.50MB                        | 42.50MB                        
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 	PS Old Gen                     | 683.00MB                       | 683.00MB                       
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 	Metaspace                      | -0.00MB                        | 0.00MB                         
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:11:54.313 [main] INFO  Engine - 
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] {
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 	"content":[
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 		{
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 			"reader":{
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 				"parameter":{
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 					"password":"******",
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 					"column":[
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 						"`id`",
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 						"`name`"
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 					],
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 					"connection":[
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 						{
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 							"jdbcUrl":[
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 								"jdbc:mysql://localhost:3306/test?useSSL=false"
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 							],
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 							"table":[
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 								"source"
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 							]
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 						}
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 					],
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 					"splitPk":"",
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 					"username":"root"
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 				},
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 				"name":"mysqlreader"
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 			},
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 			"writer":{
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 				"parameter":{
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 					"password":"******",
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 					"column":[
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 						"`id`",
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 						"`name`"
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 					],
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 					"connection":[
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 						{
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 							"jdbcUrl":"jdbc:mysql://localhost:3306/test?useSSL=false",
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 							"table":[
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 								"target"
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 							]
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 						}
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 					],
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 					"username":"root"
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 				},
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 				"name":"mysqlwriter"
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 			}
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 		}
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 	],
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 	"setting":{
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 		"errorLimit":{
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 			"record":0,
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 			"percentage":0.02
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 		},
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 		"speed":{
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 			"byte":1048576,
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 			"channel":3
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 		}
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 	}
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] }
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:11:54.330 [main] INFO  PerfTrace - PerfTrace traceId=job_-1, isEnable=false
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:11:54.330 [main] INFO  JobContainer - DataX jobContainer starts job.
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:11:54.330 [main] INFO  JobContainer - Set jobId = 0
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:11:54.586 [job-0] INFO  OriginalConfPretreatmentUtil - Available jdbcUrl:jdbc:mysql://localhost:3306/test?useSSL=false&yearIsDateType=false&zeroDateTimeBehavior=convertToNull&tinyInt1isBit=false&rewriteBatchedStatements=true.
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:11:54.593 [job-0] INFO  OriginalConfPretreatmentUtil - table:[source] has columns:[id,name].
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:11:54.771 [job-0] INFO  OriginalConfPretreatmentUtil - table:[target] all columns:[
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] id,name
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] ].
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:11:54.777 [job-0] INFO  OriginalConfPretreatmentUtil - Write data [
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] INSERT INTO %s (`id`,`name`) VALUES(?,?)
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] ], which jdbcUrl like:[jdbc:mysql://localhost:3306/test?useSSL=false&yearIsDateType=false&zeroDateTimeBehavior=convertToNull&rewriteBatchedStatements=true&tinyInt1isBit=false]
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:11:54.778 [job-0] INFO  JobContainer - jobContainer starts to do prepare ...
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:11:54.778 [job-0] INFO  JobContainer - DataX Reader.Job [mysqlreader] do prepare work .
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:11:54.778 [job-0] INFO  JobContainer - DataX Writer.Job [mysqlwriter] do prepare work .
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:11:54.778 [job-0] INFO  JobContainer - jobContainer starts to do split ...
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:11:54.781 [job-0] ERROR JobContainer - Exception when job run
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] com.alibaba.datax.common.exception.DataXException: Code:[Framework-03], Description:[DataX引擎配置错误，该问题通常是由于DataX安装错误引起，请联系您的运维解决 .].  - 在有总bps限速条件下，单个channel的bps值不能为空，也不能为非正数
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.common.exception.DataXException.asDataXException(DataXException.java:30) ~[datax-common-0.0.1-SNAPSHOT.jar:na]
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.job.JobContainer.adjustChannelNumber(JobContainer.java:430) ~[datax-core-0.0.1-SNAPSHOT.jar:na]
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.job.JobContainer.split(JobContainer.java:387) ~[datax-core-0.0.1-SNAPSHOT.jar:na]
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.job.JobContainer.start(JobContainer.java:117) ~[datax-core-0.0.1-SNAPSHOT.jar:na]
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.Engine.start(Engine.java:86) [datax-core-0.0.1-SNAPSHOT.jar:na]
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.Engine.entry(Engine.java:168) [datax-core-0.0.1-SNAPSHOT.jar:na]
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.Engine.main(Engine.java:201) [datax-core-0.0.1-SNAPSHOT.jar:na]
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:11:54.784 [job-0] INFO  StandAloneJobContainerCommunicator - Total 0 records, 0 bytes | Speed 0B/s, 0 records/s | Error 0 records, 0 bytes |  All Task WaitWriterTime 0.000s |  All Task WaitReaderTime 0.000s | Percentage 0.00%
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:11:54.785 [job-0] ERROR Engine - 
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 经DataX智能分析,该任务最可能的错误原因是:
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] com.alibaba.datax.common.exception.DataXException: Code:[Framework-03], Description:[DataX引擎配置错误，该问题通常是由于DataX安装错误引起，请联系您的运维解决 .].  - 在有总bps限速条件下，单个channel的bps值不能为空，也不能为非正数
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.common.exception.DataXException.asDataXException(DataXException.java:30)
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.job.JobContainer.adjustChannelNumber(JobContainer.java:430)
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.job.JobContainer.split(JobContainer.java:387)
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.job.JobContainer.start(JobContainer.java:117)
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.Engine.start(Engine.java:86)
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.Engine.entry(Engine.java:168)
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.Engine.main(Engine.java:201)
+2024-07-29 11:11:54 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-07-29 11:11:54 [JobThread.run-165] <br>----------- datax-web job execute end(finish) -----------<br>----------- ReturnT:ReturnT [code=500, msg=command exit value(1) is failed, content=null]
+2024-07-29 11:11:54 [TriggerCallbackThread.callbackLog-186] <br>----------- datax-web job callback finish.

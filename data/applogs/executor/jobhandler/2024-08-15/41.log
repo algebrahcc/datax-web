@@ -1,0 +1,127 @@
+2024-08-15 15:38:39 [JobThread.run-130] <br>----------- datax-web job execute start -----------<br>----------- Param:
+2024-08-15 15:38:39 [BuildCommand.buildDataXParam-100] ------------------Command parameters:
+2024-08-15 15:38:39 [ExecutorJobHandler.execute-57] ------------------DataX process id: 31032
+2024-08-15 15:38:39 [ProcessCallbackThread.callbackLog-186] <br>----------- datax-web job callback finish.
+2024-08-15 15:38:39 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-08-15 15:38:39 [AnalysisStatistics.analysisStatisticsLog-53] DataX (DATAX-OPENSOURCE-3.0), From Alibaba !
+2024-08-15 15:38:39 [AnalysisStatistics.analysisStatisticsLog-53] Copyright (C) 2010-2017, Alibaba Group. All Rights Reserved.
+2024-08-15 15:38:39 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-08-15 15:38:39 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-15 15:38:40.892 [main] INFO  MessageSource - JVM TimeZone: GMT+08:00, Locale: zh_CN
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-15 15:38:40.894 [main] INFO  MessageSource - use Locale: zh_CN timeZone: sun.util.calendar.ZoneInfo[id="GMT+08:00",offset=28800000,dstSavings=0,useDaylight=false,transitions=0,lastRule=null]
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-15 15:38:40.908 [main] INFO  VMInfo - VMInfo# operatingSystem class => sun.management.OperatingSystemImpl
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-15 15:38:40.915 [main] INFO  Engine - the machine info  => 
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 	osInfo:	Windows 10 amd64 10.0
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 	jvmInfo:	Oracle Corporation 1.8 25.221-b11
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 	cpu num:	16
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 	totalPhysicalMemory:	-0.00G
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 	freePhysicalMemory:	-0.00G
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 	maxFileDescriptorCount:	-1
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 	currentOpenFileDescriptorCount:	-1
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 	GC Names	[PS MarkSweep, PS Scavenge]
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 	MEMORY_NAME                    | allocation_size                | init_size                      
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 	PS Eden Space                  | 256.00MB                       | 256.00MB                       
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 	Code Cache                     | 240.00MB                       | 2.44MB                         
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 	Compressed Class Space         | 1,024.00MB                     | 0.00MB                         
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 	PS Survivor Space              | 42.50MB                        | 42.50MB                        
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 	PS Old Gen                     | 683.00MB                       | 683.00MB                       
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 	Metaspace                      | -0.00MB                        | 0.00MB                         
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-15 15:38:40.927 [main] INFO  Engine - 
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] {
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 	"content":[
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 		{
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 			"reader":{
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 				"parameter":{
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 					"path":"D:\\AIRCAS\\2024.7\\dataxweb\\datax-web\\datax-admin\\uploads\\data\\source2.csv",
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 					"column":[
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 						{
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 							"index":"\\\\\\0\\\\\\",
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 							"type":"\\\\\\long\\\\\\"
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 						},
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 						{
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 							"index":"\\\\\\1\\\\\\",
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 							"type":"\\\\\\string\\\\\\"
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 						},
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 						{
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 							"index":"\\\\\\2\\\\\\",
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 							"type":"\\\\\\date\\\\\\"
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 						}
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 					],
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 					"skipHeader":true,
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 					"fieldDelimiter":","
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 				},
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 				"name":"txtfilereader"
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 			},
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 			"writer":{
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 				"parameter":{
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 					"password":"******",
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 					"column":[
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 						"`id`",
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 						"`name`",
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 						"`date`"
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 					],
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 					"connection":[
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 						{
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 							"jdbcUrl":"jdbc:mysql://localhost:3306/test?useSSL=false",
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 							"table":[
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 								"target"
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 							]
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 						}
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 					],
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 					"username":"root"
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 				},
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 				"name":"mysqlwriter"
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 			}
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 		}
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 	],
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 	"setting":{
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 		"errorLimit":{
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 			"record":0,
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 			"percentage":0.02
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 		},
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 		"speed":{
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 			"byte":1048576,
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 			"channel":3
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 		}
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 	}
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] }
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-15 15:38:40.946 [main] INFO  PerfTrace - PerfTrace traceId=job_-1, isEnable=false
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-15 15:38:40.946 [main] INFO  JobContainer - DataX jobContainer starts job.
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-15 15:38:40.947 [main] INFO  JobContainer - Set jobId = 0
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-15 15:38:40.966 [job-0] ERROR JobContainer - Exception when job run
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] com.alibaba.datax.common.exception.DataXException: Code:[Common-00], Describe:[您提供的配置文件存在错误信息，请检查您的作业配置 .] - 任务读取配置文件出错. 配置文件路径[index] 值非法, 期望是整数类型: For input string: "\\\0\\\". 请检查您的配置并作出修改.
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.common.exception.DataXException.asDataXException(DataXException.java:30) ~[datax-common-0.0.1-SNAPSHOT.jar:na]
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.common.util.Configuration.getInt(Configuration.java:314) ~[datax-common-0.0.1-SNAPSHOT.jar:na]
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.plugin.reader.txtfilereader.TxtFileReader$Job.validateParameter(TxtFileReader.java:127) ~[txtfilereader-0.0.1-SNAPSHOT.jar:na]
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.plugin.reader.txtfilereader.TxtFileReader$Job.init(TxtFileReader.java:54) ~[txtfilereader-0.0.1-SNAPSHOT.jar:na]
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.job.JobContainer.initJobReader(JobContainer.java:673) ~[datax-core-0.0.1-SNAPSHOT.jar:na]
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.job.JobContainer.init(JobContainer.java:303) ~[datax-core-0.0.1-SNAPSHOT.jar:na]
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.job.JobContainer.start(JobContainer.java:113) ~[datax-core-0.0.1-SNAPSHOT.jar:na]
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.Engine.start(Engine.java:86) [datax-core-0.0.1-SNAPSHOT.jar:na]
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.Engine.entry(Engine.java:168) [datax-core-0.0.1-SNAPSHOT.jar:na]
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.Engine.main(Engine.java:201) [datax-core-0.0.1-SNAPSHOT.jar:na]
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-15 15:38:40.971 [job-0] INFO  StandAloneJobContainerCommunicator - Total 0 records, 0 bytes | Speed 0B/s, 0 records/s | Error 0 records, 0 bytes |  All Task WaitWriterTime 0.000s |  All Task WaitReaderTime 0.000s | Percentage 0.00%
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-15 15:38:40.972 [job-0] ERROR Engine - 
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 经DataX智能分析,该任务最可能的错误原因是:
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] com.alibaba.datax.common.exception.DataXException: Code:[Common-00], Describe:[您提供的配置文件存在错误信息，请检查您的作业配置 .] - 任务读取配置文件出错. 配置文件路径[index] 值非法, 期望是整数类型: For input string: "\\\0\\\". 请检查您的配置并作出修改.
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.common.exception.DataXException.asDataXException(DataXException.java:30)
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.common.util.Configuration.getInt(Configuration.java:314)
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.plugin.reader.txtfilereader.TxtFileReader$Job.validateParameter(TxtFileReader.java:127)
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.plugin.reader.txtfilereader.TxtFileReader$Job.init(TxtFileReader.java:54)
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.job.JobContainer.initJobReader(JobContainer.java:673)
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.job.JobContainer.init(JobContainer.java:303)
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.job.JobContainer.start(JobContainer.java:113)
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.Engine.start(Engine.java:86)
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.Engine.entry(Engine.java:168)
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.Engine.main(Engine.java:201)
+2024-08-15 15:38:40 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-08-15 15:38:41 [JobThread.run-165] <br>----------- datax-web job execute end(finish) -----------<br>----------- ReturnT:ReturnT [code=500, msg=command exit value(1) is failed, content=null]
+2024-08-15 15:38:41 [TriggerCallbackThread.callbackLog-186] <br>----------- datax-web job callback finish.

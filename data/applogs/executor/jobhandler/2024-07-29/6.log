@@ -1,0 +1,154 @@
+2024-07-29 11:24:14 [JobThread.run-130] <br>----------- datax-web job execute start -----------<br>----------- Param:
+2024-07-29 11:24:14 [BuildCommand.buildDataXParam-100] ------------------Command parameters:
+2024-07-29 11:24:14 [ExecutorJobHandler.execute-57] ------------------DataX process id: 27968
+2024-07-29 11:24:15 [ProcessCallbackThread.callbackLog-186] <br>----------- datax-web job callback finish.
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] DataX (DATAX-OPENSOURCE-3.0), From Alibaba !
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] Copyright (C) 2010-2017, Alibaba Group. All Rights Reserved.
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:24:15.673 [main] INFO  MessageSource - JVM TimeZone: GMT+08:00, Locale: zh_CN
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:24:15.675 [main] INFO  MessageSource - use Locale: zh_CN timeZone: sun.util.calendar.ZoneInfo[id="GMT+08:00",offset=28800000,dstSavings=0,useDaylight=false,transitions=0,lastRule=null]
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:24:15.683 [main] INFO  VMInfo - VMInfo# operatingSystem class => sun.management.OperatingSystemImpl
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:24:15.688 [main] INFO  Engine - the machine info  => 
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 	osInfo:	Windows 10 amd64 10.0
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 	jvmInfo:	Oracle Corporation 1.8 25.221-b11
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 	cpu num:	16
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 	totalPhysicalMemory:	-0.00G
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 	freePhysicalMemory:	-0.00G
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 	maxFileDescriptorCount:	-1
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 	currentOpenFileDescriptorCount:	-1
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 	GC Names	[PS MarkSweep, PS Scavenge]
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 	MEMORY_NAME                    | allocation_size                | init_size                      
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 	PS Eden Space                  | 256.00MB                       | 256.00MB                       
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 	Code Cache                     | 240.00MB                       | 2.44MB                         
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 	Compressed Class Space         | 1,024.00MB                     | 0.00MB                         
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 	PS Survivor Space              | 42.50MB                        | 42.50MB                        
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 	PS Old Gen                     | 683.00MB                       | 683.00MB                       
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 	Metaspace                      | -0.00MB                        | 0.00MB                         
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:24:15.709 [main] INFO  Engine - 
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] {
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 	"content":[
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 		{
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 			"reader":{
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 				"parameter":{
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 					"password":"******",
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 					"column":[
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 						"`id`",
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 						"`name`"
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 					],
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 					"connection":[
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 						{
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 							"jdbcUrl":[
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 								"jdbc:mysql://localhost:3306/test?useSSL=false"
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 							],
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 							"table":[
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 								"source"
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 							]
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 						}
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 					],
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 					"splitPk":"",
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 					"username":"root"
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 				},
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 				"name":"mysqlreader"
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 			},
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 			"writer":{
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 				"parameter":{
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 					"password":"******",
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 					"column":[
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 						"`id`",
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 						"`name`"
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 					],
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 					"connection":[
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 						{
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 							"jdbcUrl":"jdbc:mysql://localhost:3306/test?useSSL=false",
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 							"table":[
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 								"target"
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 							]
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 						}
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 					],
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 					"username":"root"
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 				},
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 				"name":"mysqlwriter"
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 			}
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 		}
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 	],
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 	"setting":{
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 		"errorLimit":{
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 			"record":0,
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 			"percentage":0.02
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 		},
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 		"speed":{
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 			"byte":1048576,
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 			"channel":3
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 		}
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 	}
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] }
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:24:15.723 [main] INFO  PerfTrace - PerfTrace traceId=job_-1, isEnable=false
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:24:15.723 [main] INFO  JobContainer - DataX jobContainer starts job.
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:24:15.724 [main] INFO  JobContainer - Set jobId = 0
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:24:15.989 [job-0] INFO  OriginalConfPretreatmentUtil - Available jdbcUrl:jdbc:mysql://localhost:3306/test?useSSL=false&yearIsDateType=false&zeroDateTimeBehavior=convertToNull&tinyInt1isBit=false&rewriteBatchedStatements=true.
+2024-07-29 11:24:15 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:24:15.997 [job-0] INFO  OriginalConfPretreatmentUtil - table:[source] has columns:[id,name].
+2024-07-29 11:24:16 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:24:16.169 [job-0] INFO  OriginalConfPretreatmentUtil - table:[target] all columns:[
+2024-07-29 11:24:16 [AnalysisStatistics.analysisStatisticsLog-53] id,name
+2024-07-29 11:24:16 [AnalysisStatistics.analysisStatisticsLog-53] ].
+2024-07-29 11:24:16 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:24:16.174 [job-0] INFO  OriginalConfPretreatmentUtil - Write data [
+2024-07-29 11:24:16 [AnalysisStatistics.analysisStatisticsLog-53] INSERT INTO %s (`id`,`name`) VALUES(?,?)
+2024-07-29 11:24:16 [AnalysisStatistics.analysisStatisticsLog-53] ], which jdbcUrl like:[jdbc:mysql://localhost:3306/test?useSSL=false&yearIsDateType=false&zeroDateTimeBehavior=convertToNull&rewriteBatchedStatements=true&tinyInt1isBit=false]
+2024-07-29 11:24:16 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:24:16.174 [job-0] INFO  JobContainer - jobContainer starts to do prepare ...
+2024-07-29 11:24:16 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:24:16.174 [job-0] INFO  JobContainer - DataX Reader.Job [mysqlreader] do prepare work .
+2024-07-29 11:24:16 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:24:16.175 [job-0] INFO  JobContainer - DataX Writer.Job [mysqlwriter] do prepare work .
+2024-07-29 11:24:16 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:24:16.175 [job-0] INFO  JobContainer - jobContainer starts to do split ...
+2024-07-29 11:24:16 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:24:16.175 [job-0] INFO  JobContainer - Job set Max-Byte-Speed to 1048576 bytes.
+2024-07-29 11:24:16 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:24:16.177 [job-0] INFO  JobContainer - DataX Reader.Job [mysqlreader] splits to [1] tasks.
+2024-07-29 11:24:16 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:24:16.177 [job-0] INFO  JobContainer - DataX Writer.Job [mysqlwriter] splits to [1] tasks.
+2024-07-29 11:24:16 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:24:16.195 [job-0] INFO  JobContainer - jobContainer starts to do schedule ...
+2024-07-29 11:24:16 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:24:16.197 [job-0] INFO  JobContainer - Scheduler starts [1] taskGroups.
+2024-07-29 11:24:16 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:24:16.199 [job-0] INFO  JobContainer - Running by standalone Mode.
+2024-07-29 11:24:16 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:24:16.202 [taskGroup-0] INFO  TaskGroupContainer - taskGroupId=[0] start [1] channels for [1] tasks.
+2024-07-29 11:24:16 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:24:16.206 [taskGroup-0] INFO  Channel - Channel set byte_speed_limit to 1024.
+2024-07-29 11:24:16 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:24:16.206 [taskGroup-0] INFO  Channel - Channel set record_speed_limit to -1, No tps activated.
+2024-07-29 11:24:16 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:24:16.213 [taskGroup-0] INFO  TaskGroupContainer - taskGroup[0] taskId[0] attemptCount[1] is started
+2024-07-29 11:24:16 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:24:16.216 [0-0-0-reader] INFO  CommonRdbmsReader$Task - Begin to read record by Sql: [select `id`,`name` from source 
+2024-07-29 11:24:16 [AnalysisStatistics.analysisStatisticsLog-53] ] jdbcUrl:[jdbc:mysql://localhost:3306/test?useSSL=false&yearIsDateType=false&zeroDateTimeBehavior=convertToNull&tinyInt1isBit=false&rewriteBatchedStatements=true].
+2024-07-29 11:24:16 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:24:16.240 [0-0-0-reader] INFO  CommonRdbmsReader$Task - Finished read record by Sql: [select `id`,`name` from source 
+2024-07-29 11:24:16 [AnalysisStatistics.analysisStatisticsLog-53] ] jdbcUrl:[jdbc:mysql://localhost:3306/test?useSSL=false&yearIsDateType=false&zeroDateTimeBehavior=convertToNull&tinyInt1isBit=false&rewriteBatchedStatements=true].
+2024-07-29 11:24:16 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:24:16.538 [taskGroup-0] INFO  TaskGroupContainer - taskGroup[0] taskId[0] is successed, used[325]ms
+2024-07-29 11:24:16 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:24:16.538 [taskGroup-0] INFO  TaskGroupContainer - taskGroup[0] completed it's tasks.
+2024-07-29 11:24:26 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:24:26.220 [job-0] INFO  StandAloneJobContainerCommunicator - Total 1 records, 9 bytes | Speed 0B/s, 0 records/s | Error 0 records, 0 bytes |  All Task WaitWriterTime 0.000s |  All Task WaitReaderTime 0.000s | Percentage 100.00%
+2024-07-29 11:24:26 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:24:26.220 [job-0] INFO  AbstractScheduler - Scheduler accomplished all tasks.
+2024-07-29 11:24:26 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:24:26.221 [job-0] INFO  JobContainer - DataX Writer.Job [mysqlwriter] do post work.
+2024-07-29 11:24:26 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:24:26.222 [job-0] INFO  JobContainer - DataX Reader.Job [mysqlreader] do post work.
+2024-07-29 11:24:26 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:24:26.223 [job-0] INFO  JobContainer - DataX jobId [0] completed successfully.
+2024-07-29 11:24:26 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:24:26.225 [job-0] INFO  HookInvoker - No hook invoked, because base dir not exists or is a file: D:\AIRCAS\2024.7\dataxweb\datax\hook
+2024-07-29 11:24:26 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:24:26.226 [job-0] INFO  JobContainer - 
+2024-07-29 11:24:26 [AnalysisStatistics.analysisStatisticsLog-53] 	 [total cpu info] => 
+2024-07-29 11:24:26 [AnalysisStatistics.analysisStatisticsLog-53] 		averageCpu                     | maxDeltaCpu                    | minDeltaCpu                    
+2024-07-29 11:24:26 [AnalysisStatistics.analysisStatisticsLog-53] 		-1.00%                         | -1.00%                         | -1.00%
+2024-07-29 11:24:26 [AnalysisStatistics.analysisStatisticsLog-53]                         
+2024-07-29 11:24:26 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-07-29 11:24:26 [AnalysisStatistics.analysisStatisticsLog-53] 	 [total gc info] => 
+2024-07-29 11:24:26 [AnalysisStatistics.analysisStatisticsLog-53] 		 NAME                 | totalGCCount       | maxDeltaGCCount    | minDeltaGCCount    | totalGCTime        | maxDeltaGCTime     | minDeltaGCTime     
+2024-07-29 11:24:26 [AnalysisStatistics.analysisStatisticsLog-53] 		 PS MarkSweep         | 0                  | 0                  | 0                  | 0.000s             | 0.000s             | 0.000s             
+2024-07-29 11:24:26 [AnalysisStatistics.analysisStatisticsLog-53] 		 PS Scavenge          | 0                  | 0                  | 0                  | 0.000s             | 0.000s             | 0.000s             
+2024-07-29 11:24:26 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-07-29 11:24:26 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:24:26.226 [job-0] INFO  JobContainer - PerfTrace not enable!
+2024-07-29 11:24:26 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:24:26.227 [job-0] INFO  StandAloneJobContainerCommunicator - Total 1 records, 9 bytes | Speed 0B/s, 0 records/s | Error 0 records, 0 bytes |  All Task WaitWriterTime 0.000s |  All Task WaitReaderTime 0.000s | Percentage 100.00%
+2024-07-29 11:24:26 [AnalysisStatistics.analysisStatisticsLog-53] 2024-07-29 11:24:26.228 [job-0] INFO  JobContainer - 
+2024-07-29 11:24:26 [AnalysisStatistics.analysisStatisticsLog-53] 任务启动时刻                    : 2024-07-29 11:24:15
+2024-07-29 11:24:26 [AnalysisStatistics.analysisStatisticsLog-53] 任务结束时刻                    : 2024-07-29 11:24:26
+2024-07-29 11:24:26 [AnalysisStatistics.analysisStatisticsLog-53] 任务总计耗时                    :                 10s
+2024-07-29 11:24:26 [AnalysisStatistics.analysisStatisticsLog-53] 任务平均流量                    :                0B/s
+2024-07-29 11:24:26 [AnalysisStatistics.analysisStatisticsLog-53] 记录写入速度                    :              0rec/s
+2024-07-29 11:24:26 [AnalysisStatistics.analysisStatisticsLog-53] 读出记录总数                    :                   1
+2024-07-29 11:24:26 [AnalysisStatistics.analysisStatisticsLog-53] 读写失败总数                    :                   0
+2024-07-29 11:24:26 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-07-29 11:24:26 [JobThread.run-165] <br>----------- datax-web job execute end(finish) -----------<br>----------- ReturnT:ReturnT [code=200, msg=LogStatistics{taskStartTime=2024-07-29 11:24:15, taskEndTime=2024-07-29 11:24:26, taskTotalTime=10s, taskAverageFlow=0B/s, taskRecordWritingSpeed=0rec/s, taskRecordReaderNum=1, taskRecordWriteFailNum=0}, content=null]
+2024-07-29 11:24:26 [TriggerCallbackThread.callbackLog-186] <br>----------- datax-web job callback finish.

@@ -1,0 +1,181 @@
+2024-08-16 10:01:03 [JobThread.run-130] <br>----------- datax-web job execute start -----------<br>----------- Param:
+2024-08-16 10:01:03 [BuildCommand.buildDataXParam-100] ------------------Command parameters:
+2024-08-16 10:01:03 [ExecutorJobHandler.execute-57] ------------------DataX process id: 25268
+2024-08-16 10:01:03 [ProcessCallbackThread.callbackLog-186] <br>----------- datax-web job callback finish.
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] DataX (DATAX-OPENSOURCE-3.0), From Alibaba !
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] Copyright (C) 2010-2017, Alibaba Group. All Rights Reserved.
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-16 10:01:04.694 [main] INFO  MessageSource - JVM TimeZone: GMT+08:00, Locale: zh_CN
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-16 10:01:04.696 [main] INFO  MessageSource - use Locale: zh_CN timeZone: sun.util.calendar.ZoneInfo[id="GMT+08:00",offset=28800000,dstSavings=0,useDaylight=false,transitions=0,lastRule=null]
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-16 10:01:04.707 [main] INFO  VMInfo - VMInfo# operatingSystem class => sun.management.OperatingSystemImpl
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-16 10:01:04.712 [main] INFO  Engine - the machine info  => 
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 	osInfo:	Windows 10 amd64 10.0
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 	jvmInfo:	Oracle Corporation 1.8 25.221-b11
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 	cpu num:	16
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 	totalPhysicalMemory:	-0.00G
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 	freePhysicalMemory:	-0.00G
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 	maxFileDescriptorCount:	-1
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 	currentOpenFileDescriptorCount:	-1
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 	GC Names	[PS MarkSweep, PS Scavenge]
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 	MEMORY_NAME                    | allocation_size                | init_size                      
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 	PS Eden Space                  | 256.00MB                       | 256.00MB                       
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 	Code Cache                     | 240.00MB                       | 2.44MB                         
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 	Compressed Class Space         | 1,024.00MB                     | 0.00MB                         
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 	PS Survivor Space              | 42.50MB                        | 42.50MB                        
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 	PS Old Gen                     | 683.00MB                       | 683.00MB                       
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 	Metaspace                      | -0.00MB                        | 0.00MB                         
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-16 10:01:04.734 [main] INFO  Engine - 
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] {
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 	"content":[
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 		{
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 			"reader":{
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 				"parameter":{
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 					"path":"D:\\data\\source2 - 副本.csv",
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 					"column":[
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 						{
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 							"index":"0",
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 							"type":"long"
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 						},
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 						{
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 							"index":"1",
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 							"type":"string"
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 						},
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 						{
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 							"format":"yyyy-MM-dd",
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 							"index":"2",
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 							"type":"date"
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 						}
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 					],
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 					"skipHeader":true,
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 					"fieldDelimiter":","
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 				},
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 				"name":"txtfilereader"
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 			},
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 			"writer":{
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 				"parameter":{
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 					"password":"******",
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 					"column":[
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 						"`id`",
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 						"`name`",
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 						"`date`"
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 					],
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 					"connection":[
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 						{
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 							"jdbcUrl":"jdbc:mysql://localhost:3306/test?useSSL=false",
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 							"table":[
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 								"source"
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 							]
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 						}
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 					],
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 					"username":"root"
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 				},
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 				"name":"mysqlwriter"
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 			}
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 		}
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 	],
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 	"setting":{
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 		"errorLimit":{
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 			"record":0,
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 			"percentage":0.02
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 		},
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 		"speed":{
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 			"byte":1048576,
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 			"channel":3
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 		}
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 	}
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] }
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-16 10:01:04.752 [main] INFO  PerfTrace - PerfTrace traceId=job_-1, isEnable=false
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-16 10:01:04.753 [main] INFO  JobContainer - DataX jobContainer starts job.
+2024-08-16 10:01:04 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-16 10:01:04.754 [main] INFO  JobContainer - Set jobId = 0
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-16 10:01:05.118 [job-0] INFO  OriginalConfPretreatmentUtil - table:[source] all columns:[
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] id,name,date
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] ].
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-16 10:01:05.126 [job-0] INFO  OriginalConfPretreatmentUtil - Write data [
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] INSERT INTO %s (`id`,`name`,`date`) VALUES(?,?,?)
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] ], which jdbcUrl like:[jdbc:mysql://localhost:3306/test?useSSL=false&yearIsDateType=false&zeroDateTimeBehavior=convertToNull&rewriteBatchedStatements=true&tinyInt1isBit=false]
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-16 10:01:05.126 [job-0] INFO  JobContainer - jobContainer starts to do prepare ...
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-16 10:01:05.127 [job-0] INFO  JobContainer - DataX Reader.Job [txtfilereader] do prepare work .
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-16 10:01:05.128 [job-0] INFO  TxtFileReader$Job - add file [D:\data\source2 - 副本.csv] as a candidate to be read.
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-16 10:01:05.128 [job-0] INFO  TxtFileReader$Job - 您即将读取的文件数为: [1]
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-16 10:01:05.128 [job-0] INFO  JobContainer - DataX Writer.Job [mysqlwriter] do prepare work .
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-16 10:01:05.129 [job-0] INFO  JobContainer - jobContainer starts to do split ...
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-16 10:01:05.129 [job-0] INFO  JobContainer - Job set Max-Byte-Speed to 1048576 bytes.
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-16 10:01:05.129 [job-0] INFO  JobContainer - DataX Reader.Job [txtfilereader] splits to [1] tasks.
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-16 10:01:05.129 [job-0] INFO  JobContainer - DataX Writer.Job [mysqlwriter] splits to [1] tasks.
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-16 10:01:05.148 [job-0] INFO  JobContainer - jobContainer starts to do schedule ...
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-16 10:01:05.150 [job-0] INFO  JobContainer - Scheduler starts [1] taskGroups.
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-16 10:01:05.152 [job-0] INFO  JobContainer - Running by standalone Mode.
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-16 10:01:05.156 [taskGroup-0] INFO  TaskGroupContainer - taskGroupId=[0] start [1] channels for [1] tasks.
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-16 10:01:05.160 [taskGroup-0] INFO  Channel - Channel set byte_speed_limit to 1024.
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-16 10:01:05.160 [taskGroup-0] INFO  Channel - Channel set record_speed_limit to -1, No tps activated.
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-16 10:01:05.168 [taskGroup-0] INFO  TaskGroupContainer - taskGroup[0] taskId[0] attemptCount[1] is started
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-16 10:01:05.169 [0-0-0-reader] INFO  TxtFileReader$Task - reading file : [D:\data\source2 - 副本.csv]
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-16 10:01:05.183 [0-0-0-reader] INFO  UnstructuredStorageReaderUtil - Header line id,name,date has been skiped.
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-16 10:01:05.195 [0-0-0-reader] INFO  UnstructuredStorageReaderUtil - CsvReader使用默认值[{"captureRawRecord":true,"columnCount":0,"comment":"#","currentRecord":-1,"delimiter":",","escapeMode":1,"headerCount":0,"rawRecord":"","recordDelimiter":"\u0000","safetySwitch":false,"skipEmptyRecords":true,"textQualifier":"\"","trimWhitespace":true,"useComments":false,"useTextQualifier":true,"values":[]}],csvReaderConfig值为[null]
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-16 10:01:05.476 [0-0-0-writer] WARN  CommonRdbmsWriter$Task - 回滚此次写入, 采用每次写入一行方式提交. 因为:Duplicate entry '3' for key 'PRIMARY'
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-16 10:01:05.490 [0-0-0-writer] ERROR StdoutPluginCollector - 
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '3' for key 'PRIMARY'
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_221]
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[na:1.8.0_221]
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[na:1.8.0_221]
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[na:1.8.0_221]
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.mysql.jdbc.Util.getInstance(Util.java:408) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3978) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3914) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2530) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2683) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2495) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1903) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1242) ~[mysql-connector-java-5.1.47.jar:5.1.47]
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.plugin.rdbms.writer.CommonRdbmsWriter$Task.doOneInsert(CommonRdbmsWriter.java:382) [plugin-rdbms-util-0.0.1-SNAPSHOT.jar:na]
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.plugin.rdbms.writer.CommonRdbmsWriter$Task.doBatchInsert(CommonRdbmsWriter.java:362) [plugin-rdbms-util-0.0.1-SNAPSHOT.jar:na]
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.plugin.rdbms.writer.CommonRdbmsWriter$Task.startWriteWithConnection(CommonRdbmsWriter.java:297) [plugin-rdbms-util-0.0.1-SNAPSHOT.jar:na]
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.plugin.rdbms.writer.CommonRdbmsWriter$Task.startWrite(CommonRdbmsWriter.java:319) [plugin-rdbms-util-0.0.1-SNAPSHOT.jar:na]
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.plugin.writer.mysqlwriter.MysqlWriter$Task.startWrite(MysqlWriter.java:78) [mysqlwriter-0.0.1-SNAPSHOT.jar:na]
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.taskgroup.runner.WriterRunner.run(WriterRunner.java:56) [datax-core-0.0.1-SNAPSHOT.jar:na]
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 	at java.lang.Thread.run(Unknown Source) [na:1.8.0_221]
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-16 10:01:05.507 [0-0-0-writer] ERROR StdoutPluginCollector - 脏数据: 
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] {"exception":"Duplicate entry '3' for key 'PRIMARY'","record":[{"byteSize":1,"index":0,"rawData":3,"type":3},{"byteSize":3,"index":1,"rawData":"ccc","type":5},{"byteSize":8,"index":2,"rawData":1723132800000,"type":7}],"type":"writer"}
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-16 10:01:05.510 [0-0-0-writer] ERROR StdoutPluginCollector - 脏数据: 
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] {"exception":"Duplicate entry '4' for key 'PRIMARY'","record":[{"byteSize":1,"index":0,"rawData":4,"type":3},{"byteSize":3,"index":1,"rawData":"ddd","type":5},{"byteSize":8,"index":2,"rawData":1723132800000,"type":7}],"type":"writer"}
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-16 10:01:05.606 [taskGroup-0] INFO  TaskGroupContainer - taskGroup[0] taskId[0] is successed, used[439]ms
+2024-08-16 10:01:05 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-16 10:01:05.608 [taskGroup-0] INFO  TaskGroupContainer - taskGroup[0] completed it's tasks.
+2024-08-16 10:01:15 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-16 10:01:15.185 [job-0] INFO  StandAloneJobContainerCommunicator - Total 2 records, 24 bytes | Speed 2B/s, 0 records/s | Error 2 records, 24 bytes |  All Task WaitWriterTime 0.000s |  All Task WaitReaderTime 0.019s | Percentage 100.00%
+2024-08-16 10:01:15 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-16 10:01:15.189 [job-0] ERROR JobContainer - 运行scheduler 模式[standalone]出错.
+2024-08-16 10:01:15 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-16 10:01:15.190 [job-0] ERROR JobContainer - Exception when job run
+2024-08-16 10:01:15 [AnalysisStatistics.analysisStatisticsLog-53] com.alibaba.datax.common.exception.DataXException: Code:[Framework-14], Description:[DataX传输脏数据超过用户预期，该错误通常是由于源端数据存在较多业务脏数据导致，请仔细检查DataX汇报的脏数据日志信息, 或者您可以适当调大脏数据阈值 .].  - 脏数据条数检查不通过，限制是[0]条，但实际上捕获了[2]条.
+2024-08-16 10:01:15 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.common.exception.DataXException.asDataXException(DataXException.java:30) ~[datax-common-0.0.1-SNAPSHOT.jar:na]
+2024-08-16 10:01:15 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.util.ErrorRecordChecker.checkRecordLimit(ErrorRecordChecker.java:58) ~[datax-core-0.0.1-SNAPSHOT.jar:na]
+2024-08-16 10:01:15 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.job.scheduler.AbstractScheduler.schedule(AbstractScheduler.java:89) ~[datax-core-0.0.1-SNAPSHOT.jar:na]
+2024-08-16 10:01:15 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.job.JobContainer.schedule(JobContainer.java:535) ~[datax-core-0.0.1-SNAPSHOT.jar:na]
+2024-08-16 10:01:15 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.job.JobContainer.start(JobContainer.java:119) ~[datax-core-0.0.1-SNAPSHOT.jar:na]
+2024-08-16 10:01:15 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.Engine.start(Engine.java:86) [datax-core-0.0.1-SNAPSHOT.jar:na]
+2024-08-16 10:01:15 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.Engine.entry(Engine.java:168) [datax-core-0.0.1-SNAPSHOT.jar:na]
+2024-08-16 10:01:15 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.Engine.main(Engine.java:201) [datax-core-0.0.1-SNAPSHOT.jar:na]
+2024-08-16 10:01:15 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-16 10:01:15.192 [job-0] INFO  StandAloneJobContainerCommunicator - Total 2 records, 24 bytes | Speed 24B/s, 2 records/s | Error 2 records, 24 bytes |  All Task WaitWriterTime 0.000s |  All Task WaitReaderTime 0.019s | Percentage 100.00%
+2024-08-16 10:01:15 [AnalysisStatistics.analysisStatisticsLog-53] 2024-08-16 10:01:15.194 [job-0] ERROR Engine - 
+2024-08-16 10:01:15 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-08-16 10:01:15 [AnalysisStatistics.analysisStatisticsLog-53] 经DataX智能分析,该任务最可能的错误原因是:
+2024-08-16 10:01:15 [AnalysisStatistics.analysisStatisticsLog-53] com.alibaba.datax.common.exception.DataXException: Code:[Framework-14], Description:[DataX传输脏数据超过用户预期，该错误通常是由于源端数据存在较多业务脏数据导致，请仔细检查DataX汇报的脏数据日志信息, 或者您可以适当调大脏数据阈值 .].  - 脏数据条数检查不通过，限制是[0]条，但实际上捕获了[2]条.
+2024-08-16 10:01:15 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.common.exception.DataXException.asDataXException(DataXException.java:30)
+2024-08-16 10:01:15 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.util.ErrorRecordChecker.checkRecordLimit(ErrorRecordChecker.java:58)
+2024-08-16 10:01:15 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.job.scheduler.AbstractScheduler.schedule(AbstractScheduler.java:89)
+2024-08-16 10:01:15 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.job.JobContainer.schedule(JobContainer.java:535)
+2024-08-16 10:01:15 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.job.JobContainer.start(JobContainer.java:119)
+2024-08-16 10:01:15 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.Engine.start(Engine.java:86)
+2024-08-16 10:01:15 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.Engine.entry(Engine.java:168)
+2024-08-16 10:01:15 [AnalysisStatistics.analysisStatisticsLog-53] 	at com.alibaba.datax.core.Engine.main(Engine.java:201)
+2024-08-16 10:01:15 [AnalysisStatistics.analysisStatisticsLog-53] 
+2024-08-16 10:01:15 [JobThread.run-165] <br>----------- datax-web job execute end(finish) -----------<br>----------- ReturnT:ReturnT [code=500, msg=command exit value(1) is failed, content=null]
+2024-08-16 10:01:15 [TriggerCallbackThread.callbackLog-186] <br>----------- datax-web job callback finish.

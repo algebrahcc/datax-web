@@ -1,0 +1,21 @@
+2024-08-19 08:59:30,541 INFO [main] c.w.d.e.DataXExecutorApplication [StartupInfoLogger.java : 50] Starting DataXExecutorApplication on LAPTOP-VF2CUOF8 with PID 26416 (D:\AIRCAS\2024.7\dataxweb\datax-web\datax-executor\target\classes started by 14358 in D:\AIRCAS\2024.7\dataxweb\datax-web)
+2024-08-19 08:59:30,546 INFO [main] c.w.d.e.DataXExecutorApplication [SpringApplication.java : 675] No active profile set, falling back to default profiles: default
+2024-08-19 08:59:31,509 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java : 90] Tomcat initialized with port(s): 8081 (http)
+2024-08-19 08:59:31,528 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8081"]
+2024-08-19 08:59:31,549 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2024-08-19 08:59:31,550 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.17]
+2024-08-19 08:59:31,623 INFO [main] o.a.c.c.C.[.[.[/] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2024-08-19 08:59:31,623 INFO [main] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java : 296] Root WebApplicationContext: initialization completed in 810 ms
+2024-08-19 08:59:31,664 INFO [main] c.w.d.e.c.c.DataXConfig [DataXConfig.java : 47] >>>>>>>>>>> datax-web config init.
+2024-08-19 08:59:31,824 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java : 171] Initializing ExecutorService 'applicationTaskExecutor'
+2024-08-19 08:59:31,939 INFO [main] c.w.d.c.e.JobExecutor [JobExecutor.java : 238] >>>>>>>>>>> datax-web register jobhandler success, name:executorJobHandler, jobHandler:com.wugui.datax.executor.service.jobhandler.ExecutorJobHandler@4c9e38
+2024-08-19 08:59:31,940 INFO [main] c.w.d.c.e.JobExecutor [JobExecutor.java : 238] >>>>>>>>>>> datax-web register jobhandler success, name:killJobHandler, jobHandler:com.wugui.datax.executor.service.jobhandler.KillJobHandler@3bcd426c
+2024-08-19 08:59:31,972 INFO [main] c.w.d.r.r.p.XxlRpcProviderFactory [XxlRpcProviderFactory.java : 197] >>>>>>>>>>> xxl-rpc, provider factory add service success. serviceKey = com.wugui.datatx.core.biz.ExecutorBiz, serviceBean = class com.wugui.datatx.core.biz.impl.ExecutorBizImpl
+2024-08-19 08:59:31,988 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8081"]
+2024-08-19 08:59:32,124 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java : 204] Tomcat started on port(s): 8081 (http) with context path ''
+2024-08-19 08:59:32,128 INFO [main] c.w.d.e.DataXExecutorApplication [StartupInfoLogger.java : 59] Started DataXExecutorApplication in 1.88 seconds (JVM running for 5.315)
+2024-08-19 08:59:36,201 INFO [Thread-7] c.w.d.r.r.net.Server [NettyHttpServer.java : 64] >>>>>>>>>>> xxl-rpc remoting server start success, nettype = com.wugui.datax.rpc.remoting.net.impl.netty_http.server.NettyHttpServer, port = 9999
+2024-08-19 10:01:03,601 INFO [xxl-rpc, NettyHttpServer-serverHandlerPool-873262763] c.w.d.c.e.JobExecutor [JobExecutor.java : 253] >>>>>>>>>>> datax-web regist JobThread success, jobId:25, handler:com.wugui.datax.executor.service.jobhandler.ExecutorJobHandler@4c9e38
+2024-08-19 10:01:03,601 INFO [xxl-rpc, NettyHttpServer-serverHandlerPool-1730949701] c.w.d.c.e.JobExecutor [JobExecutor.java : 253] >>>>>>>>>>> datax-web regist JobThread success, jobId:26, handler:com.wugui.datax.executor.service.jobhandler.ExecutorJobHandler@4c9e38
+2024-08-19 10:02:48,393 INFO [Thread-15] c.w.d.c.t.JobThread [JobThread.java : 218] >>>>>>>>>>> datax-web JobThread stoped, hashCode:Thread[Thread-15,10,main]
+2024-08-19 10:02:48,424 INFO [Thread-16] c.w.d.c.t.JobThread [JobThread.java : 218] >>>>>>>>>>> datax-web JobThread stoped, hashCode:Thread[Thread-16,10,main]

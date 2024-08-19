@@ -1,0 +1,55 @@
+{
+  "job": {
+    "setting": {
+      "speed": {
+        "channel": 3,
+        "byte": 1048576
+      },
+      "errorLimit": {
+        "record": 0,
+        "percentage": 0.02
+      }
+    },
+    "content": [
+      {
+        "reader": {
+          "name": "txtfilereader",
+          "parameter": {
+            "path": ["D:/AIRCAS/2024.7\dataxweb\source.csv"],
+            "column": [
+              {
+                "index": "0",
+                "type": "long"
+              },
+              {
+                "index": "1",
+                "type": "string"
+              }
+            ],
+            "fieldDelimiter": ",",
+            "skipHeader": "true"
+          }
+        },
+        "writer": {
+          "name": "mysqlwriter",
+          "parameter": {
+            "username": "root",
+            "password": "123456",
+            "column": [
+              "`id`",
+              "`name`"
+            ],
+            "connection": [
+              {
+                "table": [
+                  "target"
+                ],
+                "jdbcUrl": "jdbc:mysql://localhost:3306/test?useSSL=false"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}
