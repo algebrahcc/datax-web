@@ -2,7 +2,9 @@ package com.wugui.datax.admin.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.wugui.datax.admin.entity.JobDatasource;
+import org.springframework.web.multipart.MultipartFile;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
@@ -33,4 +35,6 @@ public interface JobDatasourceService extends IService<JobDatasource> {
      * @return
      */
     List<JobDatasource> selectAllDatasource();
+
+    boolean uploadFile(MultipartFile file ,String filesDir);
 }

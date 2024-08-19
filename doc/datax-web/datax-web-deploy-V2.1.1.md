@@ -238,7 +238,7 @@ git clone https://github.com/WeiYe-Jing/datax-web.git
 没有安装git的话可以直接下载zip，并进行解压
 
 #### 7.2 数据库构建
-在datax-web文件夹中，找到 doc/db/datax_web.sql 文件，用navicat等软件连接mysql数据库后，新建datax_web数据库,然后执行数据库脚本。  
+在datax-web文件夹中，找到 doc/db/datax.sql 文件，用navicat等软件连接mysql数据库后，新建datax数据库,然后执行数据库脚本。  
 **（注意不要执行其他sql脚本，并且执行完成后检查执行结，目前版本有12张表，部分表因mysql版本问题可能执行不成功，要找出来及时处理，本次使用mysql8.0。可以执行成功，使用mysql5.7版本，时间字段创建报错导致失败）**
 
 
@@ -255,7 +255,7 @@ datax-admin 修改文件位置  /datax-admin/src/main/resources/application.yml
  datasource:
     username: root
     password: your password
-    url: jdbc:mysql://ip:port/datax_web?serverTimezone=Asia/Shanghai&useLegacyDatetimeCode=false&useSSL=false&nullNamePatternMatchesAll=true&useUnicode=true&characterEncoding=UTF-8
+    url: jdbc:mysql://ip:port/datax?serverTimezone=Asia/Shanghai&useLegacyDatetimeCode=false&useSSL=false&nullNamePatternMatchesAll=true&useUnicode=true&characterEncoding=UTF-8
     driver-class-name: com.mysql.jdbc.Driver
 
 ```

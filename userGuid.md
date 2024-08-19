@@ -4,7 +4,7 @@
 # 一、github下载master分支或者release版本到本地
 
 [DataX Web下载地址](https://github.com/WeiYe-Jing/datax-web)
-![](http://q7vnain67.bkt.clouddn.com/github_datax_web.png)
+![](http://q7vnain67.bkt.clouddn.com/github_datax.png)
 
 # 二、安装DataX
 
@@ -178,7 +178,7 @@
 
 ### 2.1 创建数据库
 
-#### 执行bin/db下面的datax_web.sql文件(注意老版本更新语句有指定库名)
+#### 执行bin/db下面的datax.sql文件(注意老版本更新语句有指定库名)
 
 ### 2.2 修改项目配置
 
@@ -189,7 +189,7 @@
   datasource:
     username: root
     password: root
-    url: jdbc:mysql://localhost:3306/datax_web?serverTimezone=Asia/Shanghai&useLegacyDatetimeCode=false&useSSL=false&nullNamePatternMatchesAll=true&useUnicode=true&characterEncoding=UTF-8
+    url: jdbc:mysql://localhost:3306/datax?serverTimezone=Asia/Shanghai&useLegacyDatetimeCode=false&useSSL=false&nullNamePatternMatchesAll=true&useUnicode=true&characterEncoding=UTF-8
     driver-class-name: com.mysql.jdbc.Driver
 ```
 

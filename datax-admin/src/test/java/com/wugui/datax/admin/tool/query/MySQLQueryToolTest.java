@@ -25,7 +25,7 @@ public class MySQLQueryToolTest {
         jdbcDatasource.setDatasourceName("z01_mysql_3306");
         jdbcDatasource.setJdbcUsername("root");
         jdbcDatasource.setJdbcPassword("root");
-        jdbcDatasource.setJdbcUrl("jdbc:mysql://localhost:3306/datax_web?serverTimezone=Asia/Shanghai&useLegacyDatetimeCode=false&useSSL=false&nullNamePatternMatchesAll=true&useUnicode=true&characterEncoding=UTF-8");
+        jdbcDatasource.setJdbcUrl("jdbc:mysql://localhost:3306/datax?serverTimezone=Asia/Shanghai&useLegacyDatetimeCode=false&useSSL=false&nullNamePatternMatchesAll=true&useUnicode=true&characterEncoding=UTF-8");
         jdbcDatasource.setJdbcDriverClass("com.mysql.jdbc.Driver");
     }
 

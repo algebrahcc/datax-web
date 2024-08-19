@@ -10,10 +10,13 @@ import com.wugui.datax.admin.tool.query.MongoDBQueryTool;
 import com.wugui.datax.admin.tool.query.QueryToolFactory;
 import com.wugui.datax.admin.util.AESUtil;
 import com.wugui.datax.admin.util.JdbcConstants;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.web.multipart.MultipartFile;
 
 import javax.annotation.Resource;
+import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
@@ -56,6 +59,25 @@ public class JobDatasourceServiceImpl extends ServiceImpl<JobDatasourceMapper, J
     @Override
     public List<JobDatasource> selectAllDatasource() {
         return datasourceMapper.selectList(null);
+    }
+
+    @Value("${file.upload.path}")
+    private String savePath;
+    @Override
+    public boolean uploadFile(MultipartFile file , String filesDir) {
+        String originalFilename = file.getOriginalFilename();
+        try {
+            // 创建文件对象，指定保存路径和文件名
+            File destination = new File(savePath + '/' + filesDir , originalFilename);
+
+            // 将 MultipartFile 中的数据写入文件
+            file.transferTo(destination);
+
+            return true;
+        } catch (IOException e) {
+            e.printStackTrace();
+            return false;
+        }
     }
 
 }

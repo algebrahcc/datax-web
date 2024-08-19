@@ -169,7 +169,7 @@ datax.json
                    "select * from job_log where id>= ${startId} and id< ${endId}"
                  ],
                  "jdbcUrl": [
-                   "jdbc:mysql://localhost:3306/datax_web"
+                   "jdbc:mysql://localhost:3306/datax"
                  ]
                }
              ]
@@ -205,7 +205,7 @@ datax.json
                  "table": [
                    "job_log"
                  ],
-                 "jdbcUrl": "jdbc:mysql://47.98.125.243:3306/datax_web"
+                 "jdbcUrl": "jdbc:mysql://47.98.125.243:3306/datax"
                }
              ]
            }

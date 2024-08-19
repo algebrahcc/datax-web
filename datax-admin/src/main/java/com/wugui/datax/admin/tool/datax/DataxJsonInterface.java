@@ -32,5 +32,7 @@ public interface DataxJsonInterface {
 
     Map<String, Object> buildMongoDBWriter();
 
+    Map<String,Object> buildExcelFileReader();
+
     Map<String, Object> buildWriter();
 }

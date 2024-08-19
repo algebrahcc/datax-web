@@ -3,6 +3,7 @@ package com.wugui.datax.admin.tool.datax.reader;
 import com.google.common.collect.Maps;
 import com.wugui.datatx.core.util.Constants;
 import com.wugui.datax.admin.entity.JobDatasource;
+import com.wugui.datax.admin.tool.pojo.DataxExcelPojo;
 import com.wugui.datax.admin.tool.pojo.DataxMongoDBPojo;
 
 import java.util.Map;
@@ -40,4 +41,5 @@ public class MongoDBReader extends BaseReaderPlugin implements DataxReaderInterf
         readerObj.put("parameter", parameterObj);
         return readerObj;
     }
+
 }

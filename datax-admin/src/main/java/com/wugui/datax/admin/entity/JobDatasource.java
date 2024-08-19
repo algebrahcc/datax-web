@@ -140,4 +140,24 @@ public class JobDatasource extends Model<JobDatasource> {
     protected Serializable pkVal() {
         return this.id;
     }
+
+    /**
+     * execl类文件路径
+     *  1 是
+     *  0 否
+     */
+    @ApiModelProperty(value = "是否为文件")
+    private Integer isFile;
+
+    /**
+     * execl类文件路径
+     *  1 是
+     *  0 否
+     */
+    @ApiModelProperty(value = "是否为文件")
+    private String filesDir;
+
+
+
+
 }

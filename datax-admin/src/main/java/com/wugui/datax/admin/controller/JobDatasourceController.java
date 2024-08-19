@@ -11,8 +11,11 @@ import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
+import java.io.File;
 import java.io.IOException;
 import java.io.Serializable;
 import java.util.List;
@@ -76,6 +79,9 @@ public class JobDatasourceController extends BaseController {
         return success(this.jobJdbcDatasourceService.getById(id));
     }
 
+
+    @Value("${file.upload.path}")
+    private String path;
     /**
      * 新增数据
      *
@@ -85,6 +91,16 @@ public class JobDatasourceController extends BaseController {
     @ApiOperation("新增数据")
     @PostMapping
     public R<Boolean> insert(@RequestBody JobDatasource entity) {
+        if(entity.getDatasource().equals("excel")){
+            entity.setIsFile(1);
+            File file = new File(path + "/" + entity.getFilesDir());
+            if (!file.exists()) {
+                file.mkdirs();
+                System.out.println("已创建不存在的文件夹: " + file);
+            } else {
+                System.out.println("文件夹已存在: " + file);
+            }
+        }
         return success(this.jobJdbcDatasourceService.save(entity));
     }
 
@@ -129,5 +145,23 @@ public class JobDatasourceController extends BaseController {
     @ApiOperation("测试数据")
     public R<Boolean> dataSourceTest (@RequestBody JobDatasource jobJdbcDatasource) throws IOException {
         return success(jobJdbcDatasourceService.dataSourceTest(jobJdbcDatasource));
+    }
+
+    @PostMapping("/uploadFile")
+    @ApiOperation("上传excel数据源")
+    public R<Boolean> uploadFile (@RequestParam("files") MultipartFile[] files, @RequestParam("path") String fileDir) throws IOException {
+        if (files.length == 0) {
+            return failed("文件为空");
+        }
+        try {
+            for (MultipartFile file : files) {
+                jobJdbcDatasourceService.uploadFile(files[0], fileDir);
+            }
+            return success(true);
+        }catch (Exception e){
+            return failed("上传失败");
+        }
+
+
     }
 }

@@ -121,4 +121,7 @@ public interface JdbcConstants {
     String HBASE20XSQL = "hbase20xsql";
     String HBASE20XSQL_DRIVER = "org.apache.phoenix.jdbc.PhoenixDriver";
 
+    String EXCELFILE = "excel";
+
+
 }

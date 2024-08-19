@@ -6,17 +6,20 @@ import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import com.wugui.datatx.core.util.Constants;
+import com.wugui.datax.admin.config.Global;
 import com.wugui.datax.admin.dto.*;
 import com.wugui.datax.admin.entity.JobDatasource;
 import com.wugui.datax.admin.tool.datax.reader.*;
 import com.wugui.datax.admin.tool.datax.writer.*;
-import com.wugui.datax.admin.tool.pojo.DataxHbasePojo;
-import com.wugui.datax.admin.tool.pojo.DataxHivePojo;
-import com.wugui.datax.admin.tool.pojo.DataxMongoDBPojo;
-import com.wugui.datax.admin.tool.pojo.DataxRdbmsPojo;
+import com.wugui.datax.admin.tool.pojo.*;
 import com.wugui.datax.admin.util.JdbcConstants;
 import lombok.Data;
 import org.apache.commons.lang3.StringUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Component;
 import org.springframework.util.CollectionUtils;
 
 import java.util.ArrayList;
@@ -34,6 +37,7 @@ import static com.wugui.datax.admin.util.JdbcConstants.*;
  * @since 2020/03/14 08:24
  */
 @Data
+@Configuration
 public class DataxJsonHelper implements DataxJsonInterface {
 
     /**
@@ -91,6 +95,7 @@ public class DataxJsonHelper implements DataxJsonInterface {
     //用于保存额外参数
     private Map<String, Object> extraParams = Maps.newHashMap();
 
+
     public void initReader(DataXJsonBuildDto dataxJsonDto, JobDatasource readerDatasource) {
 
         this.readerDatasource = readerDatasource;
@@ -127,6 +132,9 @@ public class DataxJsonHelper implements DataxJsonInterface {
         } else if (MONGODB.equals(datasource)) {
             readerPlugin = new MongoDBReader();
             buildReader = buildMongoDBReader();
+        } else if (EXCELFILE.equals(datasource)){
+            readerPlugin = new ExcelReader();
+            buildReader = buildExcelFileReader();
         }
     }
 
@@ -252,6 +260,8 @@ public class DataxJsonHelper implements DataxJsonInterface {
         return readerPlugin.build(dataxPluginPojo);
     }
 
+
+
     @Override
     public Map<String, Object> buildHiveReader() {
         DataxHivePojo dataxHivePojo = new DataxHivePojo();
@@ -303,6 +313,33 @@ public class DataxJsonHelper implements DataxJsonInterface {
         dataxMongoDBPojo.setDbName(readerDatasource.getDatabaseName());
         dataxMongoDBPojo.setReaderTable(readerTables.get(0));
         return readerPlugin.buildMongoDB(dataxMongoDBPojo);
+    }
+
+
+
+    /**
+     * excel文件读入类
+     * @return
+     */
+    @Override
+    public Map<String,Object> buildExcelFileReader(){
+//        AnnotationConfigApplicationContext annotationConfigApplicationContext= new  AnnotationConfigApplicationContext(DataxJsonHelper.class);
+//        DataxJsonHelper bean = annotationConfigApplicationContext.getBean(DataxJsonHelper.class);
+        DataxExcelPojo dataxExcelPojo = new DataxExcelPojo();
+        dataxExcelPojo.setJdbcDatasource(readerDatasource);
+        dataxExcelPojo.setExcelFilepath(Global.PATH);
+        dataxExcelPojo.setReadColumns(this.readerTables.get(0));
+        List<Map<String, Object>> columns = Lists.newArrayList();
+        for (int i = 0; i < readerColumns.size(); i++) {
+            Map<String, Object> column = Maps.newLinkedHashMap();
+            column.put("name", readerColumns.get(i));
+            column.put("type", "string");
+            columns.add(column);
+        }
+        dataxExcelPojo.setColumns(columns);
+
+        return readerPlugin.buildExcelFile(dataxExcelPojo);
+
     }
 
 

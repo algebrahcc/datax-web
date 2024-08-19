@@ -1,9 +1,6 @@
 package com.wugui.datax.admin.tool.datax;
 
-import com.wugui.datax.admin.tool.pojo.DataxHbasePojo;
-import com.wugui.datax.admin.tool.pojo.DataxHivePojo;
-import com.wugui.datax.admin.tool.pojo.DataxMongoDBPojo;
-import com.wugui.datax.admin.tool.pojo.DataxRdbmsPojo;
+import com.wugui.datax.admin.tool.pojo.*;
 
 import java.util.Map;
 
@@ -51,6 +48,14 @@ public interface DataxPluginInterface {
      * @return
      */
     Map<String,Object> buildMongoDB(DataxMongoDBPojo dataxMongoDBPojo);
+
+
+    /**
+     * excelFile json构建
+     * @param dataxExcelPojo
+     * @return
+     */
+    Map<String,Object> buildExcelFile(DataxExcelPojo dataxExcelPojo);
 
     /**
      * 获取示例
