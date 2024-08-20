@@ -93,6 +93,16 @@ public class JobDatasourceController extends BaseController {
     @ApiOperation("新增数据")
     @PostMapping
     public R<Boolean> insert(@RequestBody JobDatasource entity) {
+        if(entity.getDatasource().equals("excel")){
+            entity.setIsFile(1);
+            File file = new File(path + "/" + entity.getFilesDir());
+            if (!file.exists()) {
+                file.mkdirs();
+                System.out.println("已创建不存在的文件夹: " + file);
+            } else {
+                System.out.println("文件夹已存在: " + file);
+            }
+        }
         return success(this.jobJdbcDatasourceService.save(entity));
     }
 
@@ -108,21 +118,22 @@ public class JobDatasourceController extends BaseController {
         LocalCacheUtil.remove(entity.getDatasourceName());
         JobDatasource d = jobJdbcDatasourceService.getById(entity.getId());
         String fileAddress = d.getFileAddress();
-
-        if (!fileAddress.equals(entity.getFileAddress())) {
-            if ((null != fileAddress && !fileAddress.isEmpty())) {
-                File file = new File(fileAddress);
-                if (file.exists()) {
-                    if (file.isDirectory()) {
-                        // Delete the directory and all its contents
-                        try {
-                            FileUtils.deleteDirectory(file);
-                        } catch (IOException e) {
-                            e.printStackTrace();
+        if (fileAddress != null && entity.getFileAddress() != null) {
+            if (!fileAddress.equals(entity.getFileAddress())) {
+                if ((fileAddress != null && !fileAddress.isEmpty())) {
+                    File file = new File(fileAddress);
+                    if (file.exists()) {
+                        if (file.isDirectory()) {
+                            // Delete the directory and all its contents
+                            try {
+                                FileUtils.deleteDirectory(file);
+                            } catch (IOException e) {
+                                e.printStackTrace();
+                            }
+                        } else {
+                            // Delete the file
+                            file.delete();
                         }
-                    } else {
-                        // Delete the file
-                        file.delete();
                     }
                 }
             }
