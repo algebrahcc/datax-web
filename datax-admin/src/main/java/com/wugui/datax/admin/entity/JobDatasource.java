@@ -132,6 +132,22 @@ public class JobDatasource extends Model<JobDatasource> {
     @ApiModelProperty(value = "表格文件地址", hidden = true)
     private String fileAddress;
     /**
+     * execl类文件路径
+     *  1 是
+     *  0 否
+     */
+    @ApiModelProperty(value = "是否为文件")
+    private Integer isFile;
+
+    /**
+     * execl类文件路径
+     *  1 是
+     *  0 否
+     */
+    @ApiModelProperty(value = "是否为文件")
+    private String filesDir;
+
+    /**
      * 数据库名
      */
     @ApiModelProperty(value = "数据库名", hidden = true)

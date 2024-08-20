@@ -12,7 +12,9 @@ import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
 import org.apache.commons.io.FileUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.io.File;
 import java.io.IOException;
@@ -35,6 +37,9 @@ public class JobDatasourceController extends BaseController {
      */
     @Autowired
     private JobDatasourceService jobJdbcDatasourceService;
+
+    @Value("${file.upload-path}")
+    private String path;
 
     /**
      * 分页查询所有数据
@@ -131,6 +136,22 @@ public class JobDatasourceController extends BaseController {
         return success(this.jobJdbcDatasourceService.updateById(entity));
     }
 
+    @PostMapping("/uploadFile")
+    @ApiOperation("上传excel数据源")
+    public R<Boolean> uploadFile (@RequestParam("files") MultipartFile[] files, @RequestParam("path") String fileDir) throws IOException {
+        if (files.length == 0) {
+            return failed("文件为空");
+        }
+        try {
+            for (MultipartFile file : files) {
+                jobJdbcDatasourceService.uploadFile(files[0], fileDir);
+            }
+            return success(true);
+        }catch (Exception e){
+            return failed("上传失败");
+        }
+
+    }
     /**
      * 删除数据
      *

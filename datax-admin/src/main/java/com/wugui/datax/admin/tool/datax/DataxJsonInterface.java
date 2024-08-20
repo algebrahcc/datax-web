@@ -35,4 +35,6 @@ public interface DataxJsonInterface {
     Map<String, Object> buildWriter();
 
     Map<String, Object> buildTxtfileReader();
+
+    Map<String, Object> buildExcelFileReader();
 }

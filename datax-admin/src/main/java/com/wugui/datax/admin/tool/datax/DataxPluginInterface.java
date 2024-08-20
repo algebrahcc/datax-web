@@ -56,6 +56,12 @@ public interface DataxPluginInterface {
      */
     Map<String,Object> buildTxtFile(DataxTxtFilePojo dataxTxtFilePojo);
 
+    /**
+     * excelFile json构建
+     * @param dataxExcelPojo
+     * @return
+     */
+    Map<String,Object> buildExcelFile(DataxExcelPojo dataxExcelPojo);
 
     /**
      * 获取示例

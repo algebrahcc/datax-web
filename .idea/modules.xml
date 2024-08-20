@@ -3,11 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/datax-admin/datax-admin.iml" filepath="$PROJECT_DIR$/datax-admin/datax-admin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/datax-assembly/datax-assembly.iml" filepath="$PROJECT_DIR$/datax-assembly/datax-assembly.iml" />
       <module fileurl="file://$PROJECT_DIR$/datax-core/datax-core.iml" filepath="$PROJECT_DIR$/datax-core/datax-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/datax-executor/datax-executor.iml" filepath="$PROJECT_DIR$/datax-executor/datax-executor.iml" />
       <module fileurl="file://$PROJECT_DIR$/datax-rpc/datax-rpc.iml" filepath="$PROJECT_DIR$/datax-rpc/datax-rpc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/datax-web.iml" filepath="$PROJECT_DIR$/datax-web.iml" />
     </modules>
   </component>
 </project>

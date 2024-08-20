@@ -6,6 +6,7 @@ import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import com.wugui.datatx.core.util.Constants;
+import com.wugui.datax.admin.config.Global;
 import com.wugui.datax.admin.dto.*;
 import com.wugui.datax.admin.entity.JobDatasource;
 import com.wugui.datax.admin.tool.datax.reader.*;
@@ -15,6 +16,7 @@ import com.wugui.datax.admin.util.JdbcConstants;
 import lombok.Data;
 import org.apache.commons.lang3.StringUtils;
 import org.codehaus.jackson.map.ObjectMapper;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.util.CollectionUtils;
 
 import java.util.ArrayList;
@@ -33,6 +35,7 @@ import static com.wugui.datax.admin.util.JdbcConstants.*;
  * @since 2020/03/14 08:24
  */
 @Data
+@Configuration
 public class DataxJsonHelper implements DataxJsonInterface {
 
     /**
@@ -132,6 +135,9 @@ public class DataxJsonHelper implements DataxJsonInterface {
         } else if (TXTFILE.equals(datasource)) {
             readerPlugin = new TxtFileReader();
             buildReader = buildTxtfileReader();
+        } else if (EXCELFILE.equals(datasource)){
+            readerPlugin = new ExcelReader();
+            buildReader = buildExcelFileReader();
         }
     }
 
@@ -300,6 +306,29 @@ public class DataxJsonHelper implements DataxJsonInterface {
         dataxHivePojo.setReaderPath(hiveReaderDto.getReaderPath());
         dataxHivePojo.setSkipHeader(hiveReaderDto.getReaderSkipHeader());
         return readerPlugin.buildHive(dataxHivePojo);
+    }
+
+    /**
+     * excel文件读入类
+     * @return
+     */
+    @Override
+    public Map<String,Object> buildExcelFileReader(){
+        DataxExcelPojo dataxExcelPojo = new DataxExcelPojo();
+        dataxExcelPojo.setJdbcDatasource(readerDatasource);
+        dataxExcelPojo.setExcelFilepath(Global.PATH);
+        dataxExcelPojo.setReadColumns(this.readerTables.get(0));
+        List<Map<String, Object>> columns = Lists.newArrayList();
+        for (int i = 0; i < readerColumns.size(); i++) {
+            Map<String, Object> column = Maps.newLinkedHashMap();
+            column.put("name", readerColumns.get(i));
+            column.put("type", "string");
+            columns.add(column);
+        }
+        dataxExcelPojo.setColumns(columns);
+
+        return readerPlugin.buildExcelFile(dataxExcelPojo);
+
     }
 
     @Override

@@ -14,14 +14,6 @@
         <module name="datax-core" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="datax-admin" target="1.8" />
-      <module name="datax-assembly" target="1.8" />
-      <module name="datax-core" target="1.8" />
-      <module name="datax-executor" target="1.8" />
-      <module name="datax-rpc" target="1.8" />
-      <module name="datax-web" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="PREFER_TARGET_JDK_COMPILER" value="false" />

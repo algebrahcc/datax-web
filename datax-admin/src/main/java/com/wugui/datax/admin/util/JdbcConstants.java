@@ -123,4 +123,6 @@ public interface JdbcConstants {
 
     String TXTFILE                   = "txtfile";
 
+    String EXCELFILE = "excel";
+
 }

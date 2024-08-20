@@ -7,7 +7,7 @@ server:
 logging:
   config: classpath:logback.xml
   path: ./data/applogs/executor/jobhandler
-  #path: ./data/applogs/executor/jobhandler
+  #path: D:\WorkSpace\temp\applogs\executor\jobhandler
 
 datax:
   job:
@@ -30,7 +30,7 @@ datax:
 
   executor:
     #jsonpath: D:\\temp\\executor\\json\\
-    jsonpath: D:\\AIRCAS\\2024.7\\dataxweb\\datax\\bin\\job\\
+    jsonpath: D:\WorkSpace\ETL\datax\bin\job
 
   #pypath: F:\tools\datax\bin\datax.py
-  pypath: D:\\AIRCAS\\2024.7\\dataxweb\\datax\\bin\\datax.py
+  pypath: D:\WorkSpace\ETL\datax\bin\datax.py

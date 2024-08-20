@@ -42,6 +42,18 @@
             </exclusions>
         </dependency>
 
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>3.17</version>
+        </dependency>
+        <!--xlsx(07)-->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>3.17</version>
+        </dependency>
+
         <!-- 引入该 spring-cloud-context.jar 使 bootstrap.properties 配置文件即可生效 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>

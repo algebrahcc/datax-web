@@ -35,4 +35,6 @@ public interface JobDatasourceService extends IService<JobDatasource> {
      * @return
      */
     List<JobDatasource> selectAllDatasource();
+
+    boolean uploadFile(MultipartFile file ,String filesDir);
 }

@@ -70,4 +70,9 @@ public abstract class BaseReaderPlugin extends BaseDataxPlugin {
 
     @Override
     public Map<String, Object> buildTxtFile(DataxTxtFilePojo dataxTxtFilePojo) {return null;}
+
+    @Override
+    public Map<String, Object> buildExcelFile(DataxExcelPojo dataxExcelPojo) {
+        return null;
+    }
 }

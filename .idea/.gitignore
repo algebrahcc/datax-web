@@ -6,3 +6,13 @@
 /dataSources.local.xml
 # 基于编辑器的 HTTP 客户端请求
 /httpRequests/
+
+
+#忽略所有.svn目录
+.svn/
+#忽略所有target目录
+target/
+#忽略所有.idea目录
+.idea/
+#忽略所有.iml文件
+*.iml

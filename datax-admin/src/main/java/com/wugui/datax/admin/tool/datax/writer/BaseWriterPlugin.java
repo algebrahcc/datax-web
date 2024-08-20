@@ -76,4 +76,8 @@ public abstract class BaseWriterPlugin extends BaseDataxPlugin {
     public Map<String, Object> buildTxtFile(DataxTxtFilePojo dataxTxtFilePojo) {
         return null;
     }
+    @Override
+    public Map<String,Object> buildExcelFile(DataxExcelPojo    plugin){
+        return null;
+    }
 }
